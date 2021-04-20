@@ -1,23 +1,13 @@
 {
-	"files": [],
-	"references": [
-		{
-			"path": "./packages/geometry"
-		},
-		{
-			"path": "./packages/react-canvas-core"
-		},
-		{
-			"path": "./packages/react-diagrams"
-		},
-		{
-			"path": "./packages/react-diagrams-core"
-		},
-		{
-			"path": "./packages/react-diagrams-defaults"
-		},
-		{
-			"path": "./packages/react-diagrams-routing"
-		}
+	"compileOnSave": false,
+	"compilerOptions": {
+		"declaration": false,
+		"jsx": "react",
+		"allowJs": true,
+		"target": "es6",
+		"moduleResolution": "node"
+	},
+	"include": [
+		"./src"
 	]
 }
